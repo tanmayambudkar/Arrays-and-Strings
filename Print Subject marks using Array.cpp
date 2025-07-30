@@ -16,3 +16,10 @@ int main(){
     }
     return 0;
 }
+
+//Enter No. Of Subjects: 3
+
+//Enter The Marks: 10
+// 11
+// 12
+//The Marks Are: 10 11 12 
