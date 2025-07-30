@@ -1,5 +1,3 @@
-# Arrays-and-Strings
-
 # Aim: To study and implement C++ Arrays and Strings
 
 # Theory:
