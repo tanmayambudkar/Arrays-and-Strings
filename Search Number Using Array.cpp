@@ -1,16 +1,33 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main(){
-    int num[10]={30,40,50,60};
-    int key;
-    cout<<"Enter the value to search in the array: ";
-    cin>>key;
-    for(int j=0;j<5;j++){
-        if(key==num[j])
-        {
-        cout<<"Key found at Location:"<<j;
-        }
-        break;
+    int a[10], n, key, i, k;
+    cout << "Enter Number Of Terms: ";
+    cin >> n;
+    cout << "Enter Numbers: ";
+    for(i = 0; i < n; i++){
+        cin >> a[i];
     }
+    cout << "Enter The Key to Find: ";
+    cin >> key;
+    for(k = 0; k < n; k++){
+        if(key == a[k]){
+            cout << "Key Found At:\n" << k;
+            break;
+        }
+    }
+    if(k == n){
+        cout << "Key Not Found";
+    }
+    return 0;
 }
+
+//OUTPUT:
+//Enter Number Of Terms: 3
+//Enter Numbers: 10
+//12
+//14
+//Enter The Key to Find: 14
+//Key Found At:
+//2
