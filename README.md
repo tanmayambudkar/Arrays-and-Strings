@@ -8,7 +8,7 @@ An array stores a fixed-size sequential collection of elements of the same type.
 
 
 
-# 1. Algorithm for "Reverse Number Using Arrays.cpp"
+# 1. Algorithm for "Reverse Number Using Arrays"
 Purpose: To input numbers into an array and display them in reverse order.
 
 Algorithm:
@@ -37,7 +37,7 @@ Print Num[j]
 
 End
 
-# 2. Algorithm for "Print Subject marks using Array.cpp"
+# 2. Algorithm for "Print Subject marks using Array"
 Purpose: To input marks of subjects and display them.
 
 Algorithm:
