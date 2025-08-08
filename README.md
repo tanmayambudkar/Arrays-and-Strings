@@ -37,7 +37,7 @@ The following cases demonstrate the usage of arrays and strings in C++
 + Min and Max Values in Arrays
 + Reverse Array
 
-# 1. Algorithm for "Reverse Number Using Arrays"
+# 1. Algorithm for Reversing Numbers Using Arrays:
 Purpose: To input numbers into an array and display them in reverse order.
 
 Algorithm:
@@ -66,7 +66,7 @@ Print Num[j]
 
 End
 
-# 2. Algorithm for "Print Subject marks using Array"
+# 2. Algorithm for Printing Subject marks using Array:
 Purpose: To input marks of subjects and display them.
 
 Algorithm:
@@ -93,7 +93,49 @@ Print marks[i]
 
 End
 
+# 3. Algorithm For Palindrome:
+Purpose: Check if a given string is a palindrome.
 
+Start
+
+Prompt the user to enter a string.
+
+Read the input string.
+
+Find the length of the string and store it as n.
+
+Set a boolean variable isPalindrome to true.
+
+(Loop)
+
+For each position i from 0 to n/2 - 1:
+
+Compare the i-th character from the front with the i-th character from the back (i.e., compare str[i] and str[n-1-i]).
+
+If the two characters are not equal:
+
+Set isPalindrome to false.
+
+Exit the loop.
+
+# 4. Algorithm for Reverse String:
+Purpose: Print the reverse of a given string.
+
+Start
+
+Prompt the user to enter a string.
+
+Read the input string.
+
+Find the length of the string and store it as n.
+
+(Loop)
+
+For each index i starting from n-1 down to 0:
+
+Print the character at position i.
+
+End
 
 # Conclusion:
 The Implentation of Strings and Array was done through various codes in C++
